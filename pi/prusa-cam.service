@@ -1,0 +1,15 @@
+[Unit]
+Description=Caméra Prusa Connect (envoi de photos)
+Wants=network-online.target time-sync.target
+After=network-online.target time-sync.target
+
+[Service]
+User=__USER__
+SupplementaryGroups=video
+EnvironmentFile=/etc/prusa-cam.env
+ExecStart=/usr/local/bin/prusa-cam.sh
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target

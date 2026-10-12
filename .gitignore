@@ -1,0 +1,4 @@
+# Ne jamais committer le token Prusa Connect
+*.env
+!*.env.example
+*.jpg
