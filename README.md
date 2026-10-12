@@ -135,3 +135,7 @@ Logs : `journalctl -u prusa-cam -f`
 - Le PC doit rester allumé pendant l'impression (il fait office de routeur).
 - Une photo toutes les ~10 s, pas de vidéo en direct.
 - Le partage de connexion sur eduroam : vérifie que le règlement de ton établissement le permet.
+
+## Licence
+
+[MIT](LICENSE)
